@@ -24,8 +24,7 @@ Foi utilizada a arquitetura **VGG19**, uma rede neural profunda conhecida por su
 ### 2.1. Evolução do Treinamento
 O modelo foi treinado por mais de 100 épocas. A performance foi monitorada em um conjunto de validação, e os gráficos de Acurácia e Perda por Época demonstraram uma rápida estabilização, indicando uma boa capacidade de generalização do modelo desde as iterações iniciais.
 
-* **(Inserir aqui a imagem do gráfico "Acurácia por época (VGG19)" - Figura 15 do seu TCC)**
-* **(Inserir aqui a imagem do gráfico "Perda por época (VGG19)" - Figura 16 do seu TCC)**
+![Gráficos acurácia e de perda](img/grafico_metricas_validacao.png)
 
 ### 2.2. Resultados no Conjunto de Validação
 No conjunto de validação, o modelo VGG19 alcançou um desempenho equilibrado e de alta performance:
