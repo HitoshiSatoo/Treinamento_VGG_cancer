@@ -36,31 +36,30 @@ A robustez e a capacidade de generalização do modelo foram confirmadas no conj
 * **Acurácia Final:** **99,24%**
 * **Métricas Adicionais:** O F1-score, precision e recall (média macro) ficaram próximos de 1.0, confirmando a alta performance.
 
-* **(Inserir aqui a imagem da "Matriz de Confusão no conjunto de teste (VGG19)" - Figura 19 do seu TCC)**
-
+![Matriz de confusão](img/matriz_confusao_validacao.png)
+![Metricas de validação](img/mtreicas_desempenho.png)
 ### 2.4. Análise de Interpretabilidade com Grad-CAM
 Para garantir a transparência e a confiabilidade do modelo, a técnica **Grad-CAM** foi aplicada para gerar mapas de calor. Essas visualizações destacam as regiões da imagem que mais influenciaram a decisão da rede, permitindo uma validação visual do processo de classificação.
 
-* **(Inserir aqui a imagem da "Visualização Grad-CAM (VGG19)" - Figura 21 do seu TCC)**
+![Visualização Grad-Cam](img/resultado_grad_cam.png)
 
 ## 3. Conclusão
 
 A arquitetura VGG19, quando combinada com Transfer Learning, demonstrou ser uma ferramenta poderosa e eficaz para a tarefa de classificação de imagens histopatológicas de câncer de pulmão, alcançando uma acurácia de **99,24%** em dados de teste.
 
 O modelo não apenas atingiu um alto nível de precisão, mas a aplicação de técnicas como Grad-CAM reforçou sua interpretabilidade, um fator crucial para a confiança e a potencial aplicação em ambientes clínicos como ferramenta de apoio ao diagnóstico. O projeto valida a VGG19 como uma arquitetura robusta para tarefas complexas de visão computacional na área da saúde.
+![Visualização predicão_benigna](img/predicao_benigna.png)
+![Visualização predicão_escamosa](img/predicao_escamosas.png)
+![Visualização predicão_adenocarcinoma](img/predicao_adenocarcinoma.png)
 
 ## Como Utilizar este Projeto
 
 1.  **Clone o repositório:**
     ```bash
-    git clone [URL_DO_SEU_REPOSITORIO_AQUI]
+    git clone [(https://github.com/HitoshiSatoo/Treinamento_VGG_cancer)]
     ```
-2.  **Instale as dependências:**
-    ```bash
-    pip install -r requirements.txt
-    ```
-3.  **Estrutura de Dados:**
+2.  **Estrutura de Dados:**
     * Baixe o dataset LC25000 do Kaggle.
     * Organize as imagens nas pastas `train`, `val` e `test`, com as subpastas para cada classe (`lung_aca`, `lung_n`, `lung_scc`).
-4.  **Execute os notebooks:**
+3.  **Execute os notebooks:**
     * Siga os notebooks focados no modelo VGG para realizar o pré-processamento, treinamento e avaliação.
