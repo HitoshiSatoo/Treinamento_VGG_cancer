@@ -48,7 +48,8 @@ Para garantir a transparência e a confiabilidade do modelo, a técnica **Grad-C
 A arquitetura VGG19, quando combinada com Transfer Learning, demonstrou ser uma ferramenta poderosa e eficaz para a tarefa de classificação de imagens histopatológicas de câncer de pulmão, alcançando uma acurácia de **99,24%** em dados de teste.
 
 O modelo não apenas atingiu um alto nível de precisão, mas a aplicação de técnicas como Grad-CAM reforçou sua interpretabilidade, um fator crucial para a confiança e a potencial aplicação em ambientes clínicos como ferramenta de apoio ao diagnóstico. O projeto valida a VGG19 como uma arquitetura robusta para tarefas complexas de visão computacional na área da saúde.
-As figuras abaixo são os resultados para cada tipo de células contida no datasets, sendo visualizado através do Grad-Cam
+As figuras abaixo são os resultados para cada tipo de células contida no datasets, sendo visualizado através do Grad-Cam.
+
 ![Visualização predicão_benigna](img/predicao_benigna.png)
 ![Visualização predicão_escamosa](img/predicao_escamosas.png)
 ![Visualização predicão_adenocarcinoma](img/predicao_adenocarcinoma.png)
